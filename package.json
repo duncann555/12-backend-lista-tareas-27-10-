@@ -6,8 +6,18 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["listas","tareas","rutas","controlador","mongoDB","middlewares"],
+  "keywords": [
+    "listas",
+    "tareas",
+    "rutas",
+    "controlador",
+    "mongoDB",
+    "middlewares"
+  ],
   "author": "Sebastian Flomenbaun",
   "license": "ISC",
-  "type":"module"
+  "type": "module",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
 }
