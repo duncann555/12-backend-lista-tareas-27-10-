@@ -4,7 +4,6 @@ import { prueba, crearTarea, listarTarea, obtenerTareaID, borrarTareaID, editarT
 
 const router = Router();
 
-router.route("/test").get(prueba)
 router.route("/").post(crearTarea).get(listarTarea)
 router.route('/:id').get(obtenerTareaID).delete(borrarTareaID).put(editarTareaID)
 
