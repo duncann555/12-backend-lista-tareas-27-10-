@@ -80,4 +80,3 @@
 10. ⭐ Recomendaciones
     - Si se modifica la estructura del backend, actualizar también las rutas en el frontend.
     - No compartir la URI completa de MongoDB (mantenerla en .env).
-    - Para probar en local, cambiar el CORS a origin: "*".
