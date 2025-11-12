@@ -3,6 +3,6 @@ import tareasRoutes from "./tareas.routes.js"
 
 const router = Router()
 
-router.use('/tareas', tareasRoutes)
+router.use('/tareas/', tareasRoutes)
 
 export default router
